@@ -1,3 +1,5 @@
+//convert time like 07:05:45PM to 19:05:45
+
 function timeConversion(s) {
   const amPm = s.charAt(8);
   let hour = "";
@@ -19,5 +21,3 @@ function timeConversion(s) {
 
   return hour + s.substring(2, 8);
 }
-
-//convert time like 07:05:45PM to 19:05:45
