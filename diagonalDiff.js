@@ -4,7 +4,7 @@ function diagonalDifference(arr) {
 
   for (let i = 0; i <= arr.length - 1; i++) {
     diagonal1 += arr[i][i];
-    diagonal2 += arr[i][arr.length - i - 1]; //2 2
+    diagonal2 += arr[i][arr.length - i - 1];
   }
 
   console.log(Math.abs(diagonal1 - diagonal2));
