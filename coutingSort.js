@@ -17,7 +17,7 @@ countingSort([1, 2, 3, 1, 2, 4, 0]);
 
 //arr = [1,1,3,2,1]
 
-// All of the values are in the range [0...3], so create an array of zeros, .
+// All of the values are in the range [0...3], so create an array of zeros, [0,0,0,0] .
 // The results of each iteration follow:
 // i	arr[i]	result
 // 0	1	[0, 1, 0, 0]
